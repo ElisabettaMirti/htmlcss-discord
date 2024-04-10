@@ -21,7 +21,7 @@ header{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
 
@@ -47,17 +47,24 @@ footer{
     padding: 0.80rem 2.5rem;    
 }
 
+
+.logo.img>img{
+    height: 1.5rem;
+}
+
 .header-main{
     color: white;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding: 4rem 15.5rem;
+    background-position: center;
+    padding: 5.5rem 16rem 4rem;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 .header-main>p{
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 }
 
 .header-menu-list{
@@ -68,11 +75,20 @@ footer{
 
 .header-menu-list>li{
     padding: 0 1rem;
+    font-size: 0.7rem;
 }
 
-.logo.img>img{
-    height: 1.5rem;
+.button.big{
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
+    margin: 0.5rem 0.35rem;
 }
+
+.button.big.black{
+    background-color: #23272a;
+    color: white;
+}
+
 
 .button{
     border-radius: 15px;
@@ -89,7 +105,7 @@ footer{
 }
 
 .ad-info .img{
-    width: calc(60% - 2rem);
+    width: calc(65% - 2rem);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -98,34 +114,41 @@ footer{
     flex-flow: row-reverse nowrap;
 }
 
-.ad-main{
+.ad-big{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     text-align: center;
-    padding: 3rem 3rem 0;
+    padding: 3rem 1rem 0;
 }
 
 .text-info{
-    width: 40%;
-    padding: 2rem 7rem 0;    
+    width: 35%;
+    padding: 2rem 2rem 0 0;   
+}
+
+.text-info>h1{
+    font-size: 2.1rem;
+    line-height: 2.2rem;
 }
 
 .text-info>p{
     font-size: 0.9rem;
-    line-height: 1.4rem;
+    line-height: 1.3rem;
 }
 
-.ad-main div{
+
+
+.ad-big div{
     width: 100%;
 }
 
-.ad-main img{
+.ad-big img{
     width: 100%;
     padding: 1rem 3rem;
 }
 
-.ad-main p{
+.ad-big p{
     font-size: 0.9rem;
     line-height: 1.3rem;
 }
