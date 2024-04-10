@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Cabin", sans-serif;      
+    };    
+
+
+header{
+    background-color: #255ee9;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #23272a;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;    
+}
+
+.top-header{
+    background-color: #255ee9;
+    color: white;
+    font-size:0.80rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.80rem 2.5rem;    
+}
+
+.header-main{
+    color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 4rem 15.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.header-main>p{
+    font-size: 0.85rem;
+}
+
+.header-menu-list{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.header-menu-list>li{
+    padding: 0 1rem;
+}
+
+.logo.img>img{
+    height: 1.5rem;
+}
+
+.button{
+    border-radius: 15px;
+    padding: 0.3rem 0.5rem;
+    font-size: x-small;
+    border-color: transparent;
+}
+
+.ad-info{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center; 
+    padding: 3rem;       
+}
+
+.ad-info .img{
+    width: calc(60% - 2rem);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.row-reverse{
+    flex-flow: row-reverse nowrap;
+}
+
+.ad-main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 3rem 0;
+}
+
+.text-info{
+    width: 40%;
+    padding: 2rem 7rem 0;    
+}
+
+.text-info>p{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+.ad-main div{
+    width: 100%;
+}
+
+.ad-main img{
+    width: 100%;
+    padding: 1rem 3rem;
+}
+
+.ad-main p{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+.download{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.download>h3{
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    background-image: url(../img/stars.svg);
+    background-position: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+nav.footer-menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.link-menu{
+    display: inline-block;
+}
+
+.title-footer{
+    color: #6a7cbc;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #f6f6f6;
+}
+
+.item1{
+    background-image: url(../img/item1.svg);    
+}
+
+.item2{
+    background-image: url(../img/item2.svg);
+}
+
+.item3{
+    background-image: url(../img/item3.svg);
+}
