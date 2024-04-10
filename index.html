@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Discord</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -93,12 +94,21 @@
 
     <footer>
         <nav class="footer-menu">
-            <section class="link-menu">
-                <h3>Il tuo posto per parlare</h3>
-                <select name="lang" id="lang">Italiano</select>
-                <div class="social"></div>
+            <section class="link-social">
+                <h3>Il tuo posto per <br> parlare</h3>
+                <div class="lang"> 
+                    <img src="img/ita.png" alt="italiano" id="ita-flag">
+                    <p>Italiano &#8744;</p>
+                </div>
+                <div class="social">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
             </section>
-            <section class="link-menu">
+            <div class="menu-link-list">
+                <section class="link-menu">
                 <ul>
                     <li class="title-footer">Prodotto</li>
                     <li>Scarica</li>
@@ -143,10 +153,11 @@
                     <li>Assistenza</li>
                 </ul>
             </section>
+            </div>
         </nav>
         <section class="copyright">
-            <img src="" alt="logo-discord">
-            <button class="button bg-blue"></button>
+            <img src="img/logo.svg" alt="logo-discord" class="logo img" id="logo-footer">
+            <button class="button bg-blue">Registrati</button>
         </section>
     </footer>
 </body>
